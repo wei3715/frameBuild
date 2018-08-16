@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>tabNormalImage</key>
+		<string>tab_home_normal</string>
+		<key>tabSelectImage</key>
+		<string>tab_home_press</string>
+		<key>tabTitle</key>
+		<string>RYHK</string>
+		<key>tabVC</key>
+		<string>ZWWHomeViewController</string>
+	</dict>
+	<dict>
+		<key>tabNormalImage</key>
+		<string>tab_buy_normal</string>
+		<key>tabSelectImage</key>
+		<string>tab_buy_press</string>
+		<key>tabTitle</key>
+		<string>尊购</string>
+		<key>tabVC</key>
+		<string>ZWWBuyViewController</string>
+	</dict>
+	<dict>
+		<key>tabNormalImage</key>
+		<string>tab_live_normal</string>
+		<key>tabSelectImage</key>
+		<string>tab_live_press</string>
+		<key>tabTitle</key>
+		<string>直播</string>
+		<key>tabVC</key>
+		<string>ZWWLiveViewController</string>
+	</dict>
+	<dict>
+		<key>tabNormalImage</key>
+		<string>tab_together_normal</string>
+		<key>tabSelectImage</key>
+		<string>tab_together_press</string>
+		<key>tabTitle</key>
+		<string>汇聚</string>
+		<key>tabVC</key>
+		<string>ZWWTogetherViewController</string>
+	</dict>
+	<dict>
+		<key>tabNormalImage</key>
+		<string>tab_mine_normal</string>
+		<key>tabSelectImage</key>
+		<string>tab_mine_press</string>
+		<key>tabTitle</key>
+		<string>我的</string>
+		<key>tabVC</key>
+		<string>ZWWMineViewController</string>
+	</dict>
+</array>
+</plist>
