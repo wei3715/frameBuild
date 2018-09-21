@@ -8,6 +8,7 @@
 
 #import "ZWWMainTabViewController.h"
 #import "ZWWNaviViewController.h"
+#import "ZWWTabbar.h"
 @interface ZWWMainTabViewController ()
 
 @property (nonatomic, strong)NSArray  *dataArr;
@@ -20,9 +21,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UITabBarItem *tabItem = [UITabBarItem appearance];
-    [tabItem setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:10], NSForegroundColorAttributeName:[UIColor grayColor]} forState:UIControlStateNormal];
-    [tabItem setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:10], NSForegroundColorAttributeName:[UIColor redColor]} forState:UIControlStateSelected];
+    //使用系统的UITabbar
+//    UITabBarItem *tabItem = [UITabBarItem appearance];
+//    [tabItem setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:10], NSForegroundColorAttributeName:[UIColor grayColor]} forState:UIControlStateNormal];
+//    [tabItem setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:10], NSForegroundColorAttributeName:[UIColor redColor]} forState:UIControlStateSelected];
+    
+    //使用自定义的Tabbar
+    ZWWTabbar *tabbar = [[ZWWTabbar alloc]initWithFrame:self.tabBar.frame];
+    tabbar.backgroundColor = [UIColor clearColor];
+    [self setValue:tabbar forKeyPath:@"tabBar"];
     
     for (NSDictionary *dic in self.dataArr) {
         Class className = NSClassFromString(dic[@"tabVC"]);
