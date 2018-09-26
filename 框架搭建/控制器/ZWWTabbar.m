@@ -75,7 +75,7 @@
 }
 
 - (void)centerBtnAction:(UIButton *)btn{
-    ZWWLog(@"点击了中间按钮");
+    ZWWLog(@"点击了中间按钮 ");
 }
 
 @end

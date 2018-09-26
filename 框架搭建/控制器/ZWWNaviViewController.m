@@ -4,7 +4,7 @@
 //
 //  Created by mac on 2018/3/19.
 //  Copyright © 2018年 mac. All rights reserved.
-//
+// test
 
 #import "ZWWNaviViewController.h"
 
@@ -16,9 +16,15 @@
 
 //保证对navi设置执行一次，节省
 + (void)initialize{
+    //appearance 方法返回一个导航栏的外外观对象
+    //修改了这个外观对象，相当于修改了整个项目中的外观
     UINavigationBar *navibar = [UINavigationBar appearance];
+    
+    //设置导航栏背景颜色
     [navibar setBarTintColor:[UIColor redColor]];
     [navibar setBackgroundImage:[UIImage imageNamed:@""] forBarMetrics:UIBarMetricsDefault];
+    
+    //设置标题栏颜色
     [navibar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:20],NSForegroundColorAttributeName:[UIColor grayColor]}];
 }
 

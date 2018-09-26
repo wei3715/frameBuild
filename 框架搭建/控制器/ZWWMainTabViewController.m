@@ -31,7 +31,9 @@
     tabbar.backgroundColor = [UIColor clearColor];
     [self setValue:tabbar forKeyPath:@"tabBar"];
     
-    for (NSDictionary *dic in self.dataArr) {
+    //for (NSDictionary *dic in self.dataArr)
+    for (int i = 1;i<self.dataArr.count;i++) {
+        NSDictionary *dic = self.dataArr[i];
         Class className = NSClassFromString(dic[@"tabVC"]);
         UIViewController *vc = [[className alloc]init];
         vc.tabBarItem.image = [UIImage imageNamed:dic[@"tabNormalImage"]];
