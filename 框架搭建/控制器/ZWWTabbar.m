@@ -39,7 +39,7 @@
     
     self.centerBtn.center = CGPointMake(tabbarW*0.5, tabbarH*0.5);
     CGRect centerFrame = self.centerBtn.frame;
-    centerFrame.origin.y -= 40;
+    centerFrame.origin.y -= 30;
     self.centerBtn.frame = centerFrame;
     [self bringSubviewToFront:self.centerBtn];
 

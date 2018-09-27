@@ -6,8 +6,8 @@
 //  Copyright © 2018年 mac. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ZWWRootViewController.h"
 
-@interface ZWWResignViewController : UIViewController
+@interface ZWWResignViewController : ZWWRootViewController
 
 @end

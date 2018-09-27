@@ -6,8 +6,7 @@
 //  Copyright © 2018年 mac. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface ZWWLiveViewController : UIViewController
+#import "ZWWRootViewController.h"
+@interface ZWWLiveViewController : ZWWRootViewController
 
 @end

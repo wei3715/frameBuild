@@ -26,5 +26,11 @@
 		<key>leftImage</key>
 		<string>mine_icon_4</string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>测试横竖屏切换</string>
+		<key>leftImage</key>
+		<string>mine_icon_1</string>
+	</dict>
 </array>
 </plist>

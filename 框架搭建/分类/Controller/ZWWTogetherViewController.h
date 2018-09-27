@@ -6,8 +6,7 @@
 //  Copyright © 2018年 mac. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface ZWWTogetherViewController : UIViewController
+#import "ZWWRootViewController.h"
+@interface ZWWTogetherViewController : ZWWRootViewController
 
 @end

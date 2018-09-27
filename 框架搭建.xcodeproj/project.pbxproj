@@ -32,6 +32,8 @@
 		04B437EF2062532200040CD6 /* ZWWResignNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B437EE2062532200040CD6 /* ZWWResignNextViewController.m */; };
 		04C1A42E206353F500B1BE0E /* ZWWResignNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C1A42D206353F500B1BE0E /* ZWWResignNextView.m */; };
 		E0066CCF2154B87900C0ED6E /* ZWWTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E0066CCE2154B87900C0ED6E /* ZWWTabbar.m */; };
+		E0CBBC95215CD1A800BEA17C /* ZWWOrientationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBBC94215CD1A800BEA17C /* ZWWOrientationViewController.m */; };
+		E0CBBC98215CD25D00BEA17C /* ZWWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBBC97215CD25D00BEA17C /* ZWWRootViewController.m */; };
 		F1562AA8775DB2455F7FD869 /* libPods-框架搭建.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5081E11C0C6EB2254080828E /* libPods-框架搭建.a */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +108,11 @@
 		DCC55C9C2DF9C1CBF75ED218 /* Pods-框架搭建.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-框架搭建.release.xcconfig"; path = "Pods/Target Support Files/Pods-框架搭建/Pods-框架搭建.release.xcconfig"; sourceTree = "<group>"; };
 		E0066CCD2154B87900C0ED6E /* ZWWTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWTabbar.h; sourceTree = "<group>"; };
 		E0066CCE2154B87900C0ED6E /* ZWWTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWTabbar.m; sourceTree = "<group>"; };
+		E0CBBC93215CD1A800BEA17C /* ZWWOrientationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWOrientationViewController.h; sourceTree = "<group>"; };
+		E0CBBC94215CD1A800BEA17C /* ZWWOrientationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWOrientationViewController.m; sourceTree = "<group>"; };
+		E0CBBC96215CD25D00BEA17C /* ZWWRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWRootViewController.h; sourceTree = "<group>"; };
+		E0CBBC97215CD25D00BEA17C /* ZWWRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWRootViewController.m; sourceTree = "<group>"; };
+		E0CBBC99215CD2CA00BEA17C /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,6 +306,8 @@
 			children = (
 				044DF892205F997300C1816E /* ZWWMineViewController.h */,
 				044DF893205F997300C1816E /* ZWWMineViewController.m */,
+				E0CBBC93215CD1A800BEA17C /* ZWWOrientationViewController.h */,
+				E0CBBC94215CD1A800BEA17C /* ZWWOrientationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -459,10 +468,13 @@
 			children = (
 				0482243B2064CD0900A46A97 /* 工具 */,
 				044DF8B8205FA27300C1816E /* PrefixHeader.pch */,
+				E0CBBC99215CD2CA00BEA17C /* UtilsMacros.h */,
 				044DF8AD205F997300C1816E /* ZWWMainTabViewController.h */,
 				044DF8AE205F997300C1816E /* ZWWMainTabViewController.m */,
 				044DF8AF205F997300C1816E /* ZWWNaviViewController.h */,
 				044DF8B0205F997300C1816E /* ZWWNaviViewController.m */,
+				E0CBBC96215CD25D00BEA17C /* ZWWRootViewController.h */,
+				E0CBBC97215CD25D00BEA17C /* ZWWRootViewController.m */,
 				E0066CCD2154B87900C0ED6E /* ZWWTabbar.h */,
 				E0066CCE2154B87900C0ED6E /* ZWWTabbar.m */,
 			);
@@ -714,11 +726,13 @@
 				044DF8B2205F997300C1816E /* ZWWMineViewController.m in Sources */,
 				04350B012060F962003C02CA /* ZWWThirdLoginView.m in Sources */,
 				04350AFB2060E6CC003C02CA /* ZWWResignViewController.m in Sources */,
+				E0CBBC95215CD1A800BEA17C /* ZWWOrientationViewController.m in Sources */,
 				0482243E2064CD4500A46A97 /* ZWWHttpManager.m in Sources */,
 				044DF8B7205F997300C1816E /* ZWWNaviViewController.m in Sources */,
 				044DF8B4205F997300C1816E /* ZWWTogetherViewController.m in Sources */,
 				04294E94205A6436009FA385 /* AppDelegate.m in Sources */,
 				E0066CCF2154B87900C0ED6E /* ZWWTabbar.m in Sources */,
+				E0CBBC98215CD25D00BEA17C /* ZWWRootViewController.m in Sources */,
 				044DF8B3205F997300C1816E /* ZWWBuyViewController.m in Sources */,
 				04350AEB2060DE73003C02CA /* ZWWMineMessageTabView.m in Sources */,
 			);

@@ -43,7 +43,7 @@
     [self.messageTab mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(weakself.headView.mas_bottom).offset(35);
         make.left.right.mas_equalTo(self.view);
-        make.height.mas_equalTo(44*4);
+        make.height.mas_equalTo(44*5);
     }];
 }
 
